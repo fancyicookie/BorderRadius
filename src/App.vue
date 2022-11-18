@@ -1,28 +1,34 @@
+<!--
+ * @Date: 2022-11-17 15:12:57
+ * @Author: Fancyicookie
+-->
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h2>Border-Radius-Preview</h2>
+    <hr style="width: 350px"/>
+    <BorderRadius />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BorderRadius from './components/BorderRadius.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BorderRadius
   }
 }
 </script>
 
 <style lang="less">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(33, 31, 70);
+  position:fixed;
+  color: azure;
 }
 </style>
